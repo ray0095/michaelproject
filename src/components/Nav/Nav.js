@@ -3,7 +3,7 @@ import './Nav.css';
 
 function Nav() {
     return(
-        <nav className="uk-navbar-container">
+        <nav className="uk-navbar-container uk-width-1-1">
             <div className="uk-navbar-left">
 
                 <ul className="uk-navbar-nav">
