@@ -4,6 +4,7 @@ import About from './components/About/About';
 import Home from './components/Home/Home';
 import Services from './components/Services/Services';
 import Reviews from './components/Reviews/Reviews';
+import Error from './components/Error Page/Error';
 import {BrowserRouter as Router, Switch, Route, Routes} from 'react-router-dom';
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
           <Route path="/about" element={<About/>}/>
           <Route path="/services" element={<Services/>}/>
           <Route path="/reviews" element={<Reviews/>}/>
+          <Route path="*" element={<Error/>}/>
         </Routes> 
     </Router>
   )
