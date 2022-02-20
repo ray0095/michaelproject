@@ -2,10 +2,11 @@ import React from "react";
 
 function Footer() {
     return(
-        <div>
-            <div className="uk-background-muted uk-padding uk-panel uk-position-bottom uk-height-small uk-width-1-1">
+        
+            <div className= "uk-background-transparent uk-padding  uk-width-1-1 uk-position-bottom-center" uk-sticky="bottom: true">
+                <p>Ousley Strategies, LLC</p>
             </div>
-        </div>
+     
     )
 }
 

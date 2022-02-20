@@ -3,8 +3,11 @@ import React from "react";
 function Reviews() {
     return(
         <div>
-            <h1>Reviews</h1>
+            <div className="uk-position-center uk-card uk-card-default uk-card-body uk-animation-fade">
+                <h1 className="uk-text-center">Reviews</h1>
+            </div>
         </div>
+        
     )
 }
 
