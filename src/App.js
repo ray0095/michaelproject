@@ -24,6 +24,7 @@ function App() {
       return () => window.removeEventListener("resize", handleResize);
     }, []);
   const isMobile = windowDimension <= 640;
+ 
 
   return (
     <Router>
